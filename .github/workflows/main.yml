@@ -17,6 +17,6 @@ jobs:
         run: ls 
       - name: Display Completion Message
         run: echo "Pipeline Executed Successfully"
-      - name: Invalid command
-        run: abcxyz
+      - name: Error fixed
+        run: echo"Error Fixed"
   
